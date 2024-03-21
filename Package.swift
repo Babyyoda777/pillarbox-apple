@@ -9,10 +9,7 @@ let package = Package(
         .tvOS(.v16)
     ],
     products: [
-        .library(
-            name: "PillarboxAnalytics",
-            targets: ["PillarboxAnalytics"]
-        ),
+        
         .library(
             name: "PillarboxCircumspect",
             targets: ["PillarboxCircumspect"]
