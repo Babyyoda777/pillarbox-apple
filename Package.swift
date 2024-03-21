@@ -43,9 +43,7 @@ let package = Package(
             name: "PillarboxAnalytics",
             dependencies: [
                 .target(name: "PillarboxPlayer"),
-                .product(name: "ComScore", package: "Comscore-Swift-Package-Manager"),
-                .product(name: "TCCore", package: "iOSV5"),
-                .product(name: "TCServerSide", package: "iOSV5")
+                
             ],
             path: "Sources/Analytics",
             resources: [
